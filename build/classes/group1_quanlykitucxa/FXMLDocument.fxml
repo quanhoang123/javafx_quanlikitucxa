@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" cache="false" focusTraversable="false" mouseTransparent="false" prefHeight="396.0000305175781" prefWidth="577.420166015625" snapToPixel="true" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="group1_quanlykitucxa.FXMLDocumentController">
+  <children>
+    <ImageView fitHeight="406.6000325268064" fitWidth="577.420166015625" layoutX="0.0" layoutY="0.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@anhnen1.jpg" />
+      </image>
+    </ImageView>
+    <Label disable="false" focusTraversable="false" layoutX="193.0" layoutY="95.0" text="GROUP1-QVTN" textAlignment="CENTER" textFill="#005a66" textOverrun="ELLIPSIS" underline="false">
+      <font>
+        <Font name=".VnArial" size="24.0" />
+      </font>
+    </Label>
+    <Button fx:id="signup" layoutX="311.0" layoutY="177.0" minHeight="23.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="126.0" text="SIGN UP" onAction="#handleButtonActionsignup">
+      <font>
+        <Font name=".VnArial NarrowH" size="20.0" fx:id="x1" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="19.000099999997474" fitWidth="19.000099999997474" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@signup.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+    <Label layoutX="102.0" layoutY="323.0" prefHeight="20.0" prefWidth="373.0" text="Welcome to the dorm management application" textFill="#080066">
+      <font>
+        <Font name=".VnArial" size="18.0" />
+      </font>
+    </Label>
+    <Button fx:id="signin" font="$x1" layoutX="110.0" layoutY="177.0" minHeight="23.0" mnemonicParsing="false" onAction="#handleButtonActionsignin" prefHeight="30.0" prefWidth="126.0" text="Sign in">
+      <graphic>
+        <ImageView fitHeight="19.0" fitWidth="25.333333333333332" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@login.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+  </children>
+</AnchorPane>
